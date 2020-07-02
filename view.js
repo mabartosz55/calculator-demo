@@ -1,12 +1,12 @@
 // 2 number input elements
-let input1 = document.createElement("input")
-input1.type = "number"
+let inputElement1 = document.createElement("input")
+inputElement1.type = "text"
 
-let input2 = document.createElement("input")
-input2.type = "number"
+let inputElement2 = document.createElement("input")
+inputElement2.type = "text"
 
 let bodyElement = document.querySelector("body")
-bodyElement.append(input1, input2)
+bodyElement.append(inputElement1, inputElement2)
 
 // 3 button elements (1 for addition, multiplication, and division)
 
